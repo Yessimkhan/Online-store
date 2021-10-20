@@ -1,0 +1,158 @@
+body{ 
+  margin: 0px; 
+  padding: 0px; 
+} 
+.header a{ 
+ /* position: relative; */
+  display: inline-block; 
+  margin-left: 70px; 
+  font-size: 20px; 
+  margin-top: 20px; 
+
+} 
+.head2 img{ 
+ margin-left: 760px; 
+ margin-top: -55px; 
+} 
+.head2 p{ 
+ position: absolute;
+ left: 830px;
+margin-top: -50px; 
+} 
+.img2 img{ 
+  position: absolute; 
+  left: 1100px; 
+  top: 10px; 
+} 
+.img2 p{ 
+  margin-left: 1170px; 
+  margin-top: -50px; 
+} 
+.section1{ 
+  background-color: black; 
+text-align: center; 
+color: white; 
+margin-top: 0px; 
+ } 
+ .section1 h2{ 
+ margin-left: 80px;
+ } 
+ .section2 h1{ 
+  text-align: center; 
+  margin-top: 40px;  
+ } 
+ .abs{ 
+ font-size: 15px; 
+ margin-right: 40px; 
+} 
+ .section3 h1{ 
+ margin-left: 280px; 
+ } 
+ .section3 h4{ 
+margin-left: 300px; 
+margin-top: 30px; 
+ } 
+ .section4 h1{ 
+  padding-left:600px; 
+ } 
+ .section5 h1{ 
+  margin-left: 800px; 
+ } 
+ .section6{ 
+  margin-left: 700px; 
+ } 
+ .abc{ 
+  margin-right: 50px; 
+ } 
+ .section7{ 
+  margin-top: 40px; 
+text-align: center; 
+ } 
+ .section8{ 
+  margin-top: 60px; 
+  text-align: center; 
+  background-color: black; 
+  height: 100px; 
+ } 
+ .section8 h1{ 
+  padding-top: 30px; 
+  color: white; 
+ } 
+.abd{ 
+  margin-right: 250px; 
+} 
+.nas{ 
+  height:  100px; 
+  background-color: black; 
+  text-align: center; 
+   margin-top: 60px; 
+} 
+ 
+.nas h1{ 
+  color: white; 
+  width: 100%; 
+  padding-top: 30px; 
+} 
+ .section10 h4{ 
+  margin-top: 30px; 
+ } 
+ .section9{ 
+  margin-left:40px;  
+ } 
+ .end{ 
+  background-color: black; 
+  height: 400px;  
+  color: white; 
+  text-align: center; 
+ 
+ } 
+ .end h1{ 
+  padding-top: 80px; 
+ } 
+ .my{ 
+  margin-left: 250px; 
+  padding-top: 70px; 
+ } 
+ .abv img{ 
+  margin-left: 100px; 
+ } 
+ .nav{ 
+  float: left; 
+} 
+label{ 
+  margin: 8px 0 0 20px; 
+  font-size: 30px; 
+  display: none; 
+} 
+input{ 
+  display: none; 
+} 
+#toogle{ 
+  display: none; 
+} 
+@media(max-width: 375px){ 
+label{ 
+  display: block; 
+  cursor: pointer; 
+} 
+.header{ 
+display: block; 
+text-align: center; 
+padding-top:50px; 
+font-size:30px;  
+width: 375px; 
+} 
+.header a{ 
+display: block; 
+  border-top: 1px solid grey; 
+  cursor: pointer; 
+  padding: 10px 0; 
+  left:30px; 
+} 
+   #toggle:checked + .header{ 
+  display: none; 
+} 
+.section1{
+
+}
+}
